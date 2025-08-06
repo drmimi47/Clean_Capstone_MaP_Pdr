@@ -1,0 +1,1042 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Capstone_Map_PDR</title>
+
+  <link rel="stylesheet" href="style.css" />
+  <!--ANIMATED WORDS-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+  <!--ANIMATED WORDS-->
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+</head>
+<body>
+
+<!-- Progress bar at top - Add right after <body> tag -->
+<div class="progress-bar">
+  <div class="progress-fill" id="progress-fill"></div>
+</div>
+<!-- Progress bar at top - Add right after <body> tag -->
+
+<header>
+  <div class="header-left"><span class="text-highlight">PATRICK RODRIGUEZ <br>GSAPP</span></div>
+<!--   <img src="GSAPPlogo.png" alt="Logo" class="logo" />   -->  
+   <div class="header-right"><span class="text-highlight">ARCHA4144<br> <br></span></div>
+</header>
+
+    <div class="section">
+
+  <main>
+
+<div class="content" style="display: flex; justify-content: center; align-items: center; height: 80vh;">
+    <div class="text">
+        <h1 style="font-size: 90px; margin: 0; line-height: 0.9; text-align: center;">
+            <span class="text-hug">MATERIAL</span><br>
+            <span class="text-hug">IN-SITE</span>
+        </h1>
+    </div>
+</div>
+
+<!--     <h1>ARCHA4144 Research Foundation + Project Outline</h1>
+ -->
+    <div class="video-background">
+        <video autoplay muted loop>
+            <source src="recordingofrevit.mp4" type="video/mp4">
+        </video>
+    </div>
+<!-- 
+
+<nav>
+        <p>
+        <a href="#title">├─ Title</a><br>
+        <a href="#project timeline">├─ Project Timeline</a><br>
+        <a href="#research questions">├─ Research Questions</a><br>
+        <a href="#keywords">├─ Keywords</a><br>
+        <a href="#intersecting fields">├─ Intersecting Fields</a><br>
+        <a href="#historical lineage">├─ Historical Lineage</a><br>
+        <a href="#your community of practice">├─ Your Community of Practice</a><br>
+        <a href="#situated technology">├─ Situated Technology</a><br>
+        <a href="#methods">├─ Methods</a><br>
+        <a href="#computational design experiments">├─ Computational Design Experiments</a><br>
+        <a href="#visual representation">├─ Visual Representation</a><br>
+        <a href="#rhetorical argument">├─ Rhetorical Argument</a><br>
+        <a href="#capstone project proposal">├─ <span style="border: 1.25px solid black; padding: 0px 2px;">Capstone Project Proposal</span></a><br>
+        <a href="#the challenge">├─ The Challenge</a><br>
+        <a href="#credits">└─ Credits</a><br>
+        </p>
+    </nav>
+    <div style="height: 200px; overflow: hidden;">
+        <p>
+        <em>This research foundation establishes the groundwork for a multi-semester capstone project in computational design practice. Building upon precedent studies from the Summer Colloquium, this proposal frames a critical area of investigation that will guide development through fall and spring terms. The framework functions as a strategic map rather than a fixed destination, positioning emerging computational design work within broader theoretical and practical contexts. Each capstone project integrates technical experimentation with rhetorical argumentation and representational innovation. This proposal will be presented to an external design jury as both a culmination of summer research and a foundation for continued exploration. The document delineates research questions, methodological approaches, and conceptual frameworks that will inform computational experiments, visual strategies, and critical arguments throughout the capstone development process.</em>
+        </p>
+    </div>
+
+ -->
+
+
+    <!-- Spacer to push content down -->
+<!--     <div style="height: 45vh;"></div>
+ -->
+    <!-- popup menu / collapsable menu thing -->
+    <div id="letter-nav">
+    <span class="collapsed-label">C:\System\User\Explorer\MenuItems >></span>
+    <a href="#title">├─ Title</a>
+    <a href="#project timeline">├─ Project Timeline</a>
+    <a href="#research questions">├─ Research Questions</a>
+    <a href="#keywords">├─ Keywords</a>
+    <a href="#intersecting fields">├─ Intersecting Fields</a>
+    <a href="#historical lineage">├─ Historical Lineage</a>
+    <a href="#your community of practice">├─ Your Community of Practice</a>
+    <a href="#situated technology">├─ Situated Technology</a>
+    <a href="#methods">├─ Methods</a>
+    <a href="#computational design experiments">├─ Computational Design Exps</a>
+    <a href="#visual representation">├─ Visual Representation</a>
+    <a href="#rhetorical argument">├─ Rhetorical Argument</a>
+    <a href="#capstone project proposal">├─ Capstone Project Proposal</a>
+    <a href="#the challenge">├─ The Challenge</a>
+    <a href="#credits">└─ Credits</a>
+    </div>
+    <!-- popup menu / collapsable menu thing -->
+
+
+    
+<!--heading-->
+<div class="section">
+
+<div id="title" style="height: 100px;"></div>
+<div id="title" style="height: 100px;"></div>
+<div id="title" style="height: 100px;"></div>
+<div id="title" style="height: 100px;"></div>
+<h1 class="text-hug">TITLE</h1>
+<div class="scroll-container">
+            <div class="scroll-wrapper">
+                <div class="scroll-text">
+                <i>Provide a concise title that captures the essence of your research focus and computational design approach. The title should be specific enough to convey your project's scope while remaining accessible to both technical and non-technical audiences.</i>
+                </div>
+                <div class="scroll-text">
+                <i>Provide a concise title that captures the essence of your research focus and computational design approach. The title should be specific enough to convey your project's scope while remaining accessible to both technical and non-technical audiences.</i>
+                </div>
+            </div>
+        </div>
+<!--heading-->
+<div style="margin-top: 20px; padding: 15px; background: #e3ffff; border-radius: 0px;">
+  <h1 class="split-text" data-split="chars" data-delay="25" data-duration="0">PHASE 1 >> Open Material Library: A BIM Plugin for Local Material Inventory</h1>
+  <br>
+  <h3>Designing with locally available, reusable materials to reduce environmental impact</h3>
+  <p><br> </p>
+  <h1 class="split-text" data-split="chars" data-delay="25" data-duration="0">PHASE 2 >> Material Memory Library: A BIM Plugin for Encoding Cultural Metadata¹</h1>
+  <br>
+  <h3>Designing with materials that embody place, heritage, and significance</h3>
+  <p><br> </p>
+</div>
+<div style="height: 0.5em;"></div>
+<div style="margin-top: 0; padding-left: 15px; padding-right: 0px; text-align: right;">
+    <p class="text-hug-black" style="display: inline; margin: 0;"><sup>1</sup>Dual Degree Capstone project extends over a two-year period.</p>
+</div>
+<!--heading-->
+<div class="section">
+
+<div id="project timeline" style="height: 100px;"></div>
+    <h1 class="text-hug">PROJECT TIMELINE</h1>
+        <div class="scroll-container">
+            <div class="scroll-wrapper">
+                <div class="scroll-text">
+                <i>A project timeline should provide a high-level overview of the major phases, key milestones, and general timeframes for project completion. It must present the overall project structure and sequence of activities in a clear, accessible format that communicates the project's scope, duration, and critical stages to stakeholders and team members.</i>
+                </div>
+                <div class="scroll-text">
+                <i>A project timeline should provide a high-level overview of the major phases, key milestones, and general timeframes for project completion. It must present the overall project structure and sequence of activities in a clear, accessible format that communicates the project's scope, duration, and critical stages to stakeholders and team members.</i>
+                </div>
+            </div>
+        </div>
+<!--heading-->
+    <div style="margin-top: 20px; padding: 15px; background: #f0f0f0; border-radius: 0px;">
+        <div class="gantt-container">
+        <div class="gantt-wrapper">
+            <!-- Semester Headers Row -->
+    <div style="transform: scale(0.8); transform-origin: top left; margin-bottom: -20%;">
+            <div class="gantt-grid-header">
+            <div class="gantt-header-spacer"></div>
+            <div class="gantt-grid">
+                <div class="gantt-column">Sum 2025</div>
+                <div class="gantt-column">Fal 2025</div>
+                <div class="gantt-column">Spr 2026</div>
+                <div class="gantt-column">Sum 2026</div>
+                <div class="gantt-column">Fal 2026</div>
+                <div class="gantt-column">Spr 2027</div>
+            </div>
+            </div>
+            <!-- Gantt Chart -->
+            <div class="gantt-chart">
+                <div class="gantt-row">
+                    <div class="gantt-bar1" data-tooltip="Research Foundation" style="margin-left: 0%; width: 14.5%;"></div>
+                </div>
+
+                <div class="gantt-row">
+                    <div class="gantt-bar1" data-tooltip="Open Material Library Research" style="margin-left: 5%; width: 50%;"></div>
+                </div>
+
+                <div class="gantt-row">
+                    <div class="gantt-bar2" data-tooltip="Material Memory Library Research" style="margin-left: 45%; width: 50%;"></div>
+                </div>
+
+                <div class="gantt-row">
+                    <div class="gantt-bar1" data-tooltip="Grasshopper Pseudo-Plugin" style="margin-left: 7%; width: 9.75%;"></div>
+                </div>
+
+                <div class="gantt-row">
+                    <div class="gantt-bar1" data-tooltip="Revit Open Material Library Plugin" style="margin-left: 15%; width: 40%;"></div>
+                </div>
+
+                <div class="gantt-row">
+                    <div class="gantt-bar2" data-tooltip="Revit Material Memory Library Plugin" style="margin-left: 45%; width: 50%;"></div>
+                </div>
+
+                <div class="gantt-row">
+                    <div class="gantt-bar1" data-tooltip="Mapping Local Materials v1" style="margin-left: 7%; width: 7.5%;"></div>
+                </div>
+
+                <div class="gantt-row">
+                    <div class="gantt-bar1" data-tooltip="Mapping Local Materials v2" style="margin-left: 15%; width: 40%;"></div>
+                </div>
+
+                <div class="gantt-row">
+                    <div class="gantt-bar2" data-tooltip="Mapping Cultural Metadata" style="margin-left: 45%; width: 50%;"></div>
+                </div>
+
+                <div class="gantt-row">
+<div class="gantt-bar2" data-tooltip="Consolidated Systems Plugin!" style="margin-left: 80%; width: 20%; border: 3px solid #00000075;"></div>                </div>
+                <!--         -->
+                <div class="gantt-row">
+                    <div class="gantt-bar3" data-tooltip="Grasshopper" style="margin-left: 0%; width: 16.75%;"></div>
+                </div>
+
+                <div class="gantt-row">
+                    <div class="gantt-bar3" data-tooltip="Python" style="margin-left: 0%; width: 55%;"></div>
+                </div>
+
+                <div class="gantt-row">
+                    <div class="gantt-bar3" data-tooltip="C#" style="margin-left: 15%; width: 80%;"></div>
+                </div>
+
+                <div class="gantt-row">
+                    <div class="gantt-bar3" data-tooltip="Machine Learning / Classification Algorithm" style="margin-left: 33.4%; width: 50.1%;"></div>
+                </div>
+
+                <div class="gantt-row">
+                    <div class="gantt-bar3" data-tooltip="BIM and Revit" style="margin-left: 15%; width: 80%;"></div>
+                </div>
+
+                <div class="gantt-row">
+                    <div class="gantt-bar3" data-tooltip="Revit API and .NET" style="margin-left: 33.4%; width: 61.50%;"></div>
+                </div>
+
+                <div class="gantt-row">
+                    <div class="gantt-bar3" data-tooltip="Dynamo for Revit" style="margin-left: 58%; width: 25.5%;"></div>
+                </div>
+            </div>
+            </div>
+            </div>
+        </div>
+        <p>Phase 1 <span style="display: inline-block; width: 12px; height: 12px; background-color: #00ed08; vertical-align: text-bottom; margin: 0 4px;"></span>, Phase 2 <span style="display: inline-block; width: 12px; height: 12px; background-color: #e9d900; vertical-align: text-bottom; margin: 0 4px;"></span>, Toolkit <span style="display: inline-block; width: 12px; height: 12px; background-color: #54daff; vertical-align: text-bottom; margin: 0 4px;"></span>.</p>
+    <br>
+    </div>
+
+
+
+<!--heading-->
+<div class="section">
+
+<div id="research questions" style="height: 100px;"></div>
+    <h1 class="text-hug">RESEARCH QUESTIONS</h1>
+<!--         <div class="scroll-container" style="margin-top: 15px;"></div>-->        
+         <div class="scroll-container">
+            <div class="scroll-wrapper">
+                <div class="scroll-text">
+                <i>What questions does your project raise? What are you curious about? Does your work connect to societal discussions and debates taking place at the moment? Does your work touch on policy proposals for the future of technology and its regulation? Does your research question a socio-technical problem? </i>
+                </div>
+                <div class="scroll-text">
+                <i>What questions does your project raise? What are you curious about? Does your work connect to societal discussions and debates taking place at the moment? Does your work touch on policy proposals for the future of technology and its regulation? Does your research question a socio-technical problem? </i>
+                </div>
+            </div>
+        </div>
+<!--heading-->
+    <div style="margin-top: 20px; padding: 15px; background: #e3ffff; border-radius: 0px;">
+        <h1 class="split-text" data-split="chars" data-delay="25" data-duration="0">How can BIM's material intelligence be reimagined beyond efficiency driven algorithms to support considerate architectural decision making?</h1>
+    <p><br> </p>
+    </div>
+    <div style="margin-top: 20px; padding: 15px; background: #f0f0f0; border-radius: 0px;">
+        <h2>Open Material Library...</h2>
+        <br>
+        <p><b>How can open-source data on local material availability be integrated into BIM to algorithmically promote material reuse without compromising on performance or design intent?</b></p>
+    <br>
+    </div>
+    <div style="margin-top: 20px; padding: 15px; background: #f0f0f0; border-radius: 0px;">
+        <h2>On Memory Material Library...</h2>
+        <br>
+        <p><b>How can BIM integrate intelligent material selection to better align efficiency with responsibly subjective, place-based design?</b></p>
+    <br>
+    </div>
+
+
+<!--heading-->
+<div class="section">
+
+<div id="keywords" style="height: 100px;"></div>
+    <h1 class="text-hug">KEYWORDS</h1>
+        <div class="scroll-container">
+            <div class="scroll-wrapper">
+                <div class="scroll-text">
+                <i>Select six keywords that define the core concepts, technologies, methods, or theoretical frameworks central to your project. These keywords should function as entry points for understanding your work and position it within relevant academic and professional discourse.</i>
+                </div>
+                <div class="scroll-text">
+                <i>Select six keywords that define the core concepts, technologies, methods, or theoretical frameworks central to your project. These keywords should function as entry points for understanding your work and position it within relevant academic and professional discourse.</i>
+                </div>
+            </div>
+        </div>
+<!--heading-->
+<div style="margin-top: 20px; padding: 15px; background: #e3ffff; border-radius: 0px;">
+  <h2>Building Information Modeling (BIM) &gt;</h2>
+  <h2>Architectural Ethics &gt;</h2>
+  <h2>Life Cycle Analysis (LCA) &gt;</h2>
+  <h2>Placelessness &gt;</h2>
+  <h2>Efficiency Bias &gt;</h2>
+  <h2>Design Intent &gt;</h2>
+  <br>
+</div>
+
+
+
+
+<!--heading-->
+<div class="section">
+
+<div id="intersecting fields" style="height: 100px;"></div>
+    <h1 class="text-hug">INTERSECTING FIELDS</h1>
+        <div class="scroll-container">
+            <div class="scroll-wrapper">
+                <div class="scroll-text">
+                <i>Identify three distinct fields or disciplines that converge in your project, positioning your work at their intersection. These fields might include areas such as architecture, computer science, sociology, data visualization, urban planning, or media studies, among others.</i>
+                </div>
+                <div class="scroll-text">
+                <i>Identify three distinct fields or disciplines that converge in your project, positioning your work at their intersection. These fields might include areas such as architecture, computer science, sociology, data visualization, urban planning, or media studies, among others.</i>
+                </div>
+            </div>
+        </div>
+<!--heading-->
+<!--     <div style="margin-top: 20px; padding: 15px; background: #f0f0f0; border-radius: 0px;">
+      <h1 class="split-text"data-split="chars" data-delay="25" data-duration="0">&lt; Sustainable Architecture &gt; &lt; Building Information Modeling (BIM) &gt; &lt; Smart Building Systems (IoT) &gt;</h1>    
+    </div> -->
+    <div style="margin-top: 20px; padding: 15px; background: #e3ffff; border-radius: 0px;">
+      <h1 class="split-text"data-split="chars" data-delay="25" data-duration="0">&lt; Algorithm Ethics &gt;</h1>    
+    <br>
+    <p><b>The study of the moral implications and social impact of algorithms in decision-making and technology.</b></p>
+      <br>   
+    <h1 class="split-text"data-split="chars" data-delay="25" data-duration="0">&lt; Architectural Phenomenology &gt;</h1>    
+<br>
+    <p><b>An approach to architecture that emphasizes human experience, perception, and the sensory qualities of space.</b></p>
+      <br>   
+          <h1 class="split-text"data-split="chars" data-delay="25" data-duration="0"> &lt; Sustainable Design &gt;</h1>    
+
+          <br>
+              <p><b>Design focused on minimizing environmental impact through responsible resource use, energy efficiency, and long-term ecological balance.</b></p>
+      <br>   
+
+    </div>
+
+<!-- <div style="margin-top: 20px; padding: 15px; background: #f0f0f0; border-radius: 0px;">
+    <h1 style="margin: 0; line-height: 0.9; text-align: left;">
+        <span class="split-text text-hug" data-split="chars" data-delay="25" data-duration="0">&lt; Sustainable Architecture &gt;</span> 
+        <span class="split-text text-hug" data-split="chars" data-delay="50" data-duration="0">&lt; Building Information Modeling (BIM) &gt;</span> 
+        <span class="split-text text-hug" data-split="chars" data-delay="75" data-duration="0">&lt; Smart Building Systems (IoT) &gt;</span>
+    </h1>
+</div> -->
+
+<!-- Add this tooltip div somewhere in your HTML (usually near the top of body or before closing body tag) -->
+<div id="tooltip" class="tooltip"></div>
+
+<!--heading-->
+<div class="section">
+
+<div id="historical lineage" style="height: 100px;"></div>
+    <h1 class="text-hug">HISTORICAL LINEAGE</h1>
+        <div class="scroll-container">
+            <div class="scroll-wrapper">
+                <div class="scroll-text">
+                <i>What historical lineage does your work emerge from? What trajectory are you continuing? Could include: tools, theory, design, aesthetics, experiments, political debates, societal events.</i>
+                </div>
+                <div class="scroll-text">
+                <i>What historical lineage does your work emerge from? What trajectory are you continuing? Could include: tools, theory, design, aesthetics, experiments, political debates, societal events.</i>
+                </div>
+            </div>
+        </div>
+<!--heading-->
+    </div>
+    <div style="margin-top: 20px; padding: 15px; background: #f0f0f0; border-radius: 0px;">
+      <h3>VIRTUAL DESIGN & CONSTRUCTION USING BIM CURRENT & FUTURE PRACTICES</h3>
+      <p>by Lennart Anderson, Kyla Farrell, Oleg Moshkovich, Cheryle Cranbourne</p>
+      <br>
+        <img src="book1.png" alt="Book 1" class="book-image" data-tooltip= "< Current and future trends of VDC >" style="width: 300px; height: auto; display: block; margin: 0 auto;">
+      <br>
+     
+      <p><i>"[Speculating on the future of VDC]...A Revit plugin connects building components to material database, so short feedback loops can inform the designer about the environmental impact of different material selections" pg.272</i></p>
+     <br>     
+      <p><i>"Traditional tools [for construction] are fragmented and not sufficient in describing the complex buildings of today and tomorrow...successful implementation of VDC is hinging on how well developing technologies interact with design and construction needs" pg.274</i></p>
+     <br>
+      <p><i>"Buildings should not be solely defined by the sum of their parts, but by the parts and assemblies themselves and their roles within greater systems and processes—from conception, 3-D creation, through to construction and facilities management" pg.274</i></p>
+    <br>
+    </div>
+
+    </div>
+    <div style="margin-top: 20px; padding: 15px; background: #f0f0f0; border-radius: 0px;">
+      <h3>AN INTRODUCTION TO VISUAL THEORY AND PRACTICE IN THE DIGITAL AGE</h3>
+      <p>by Brooke Barnett, David Copeland, Harlen Makemson, Phillip Motley</p>
+      <br>
+        <img src="book2.png" alt="Book 2" class="book-image" data-tooltip= "< Pragmatic approaches to visualization" style="width: 275px; height: auto; display: block; margin: 0 auto;">
+     <br>
+        <p><i>"Data driven content management systems...allow content authors a way to distribute information without needing to understand the technical intricacies of Web development" pg.5-6</i></p>
+      <br>     
+        <p><i>"How does the interface...between your audience and the content you want them to digest affect their ability to do so?" pg.11</i></p>
+     <br>      
+        <p><i>"Clients and organizations...will demand that the content...be technically sophisticated and visually compelling" pg.164</i></p>
+    <br>
+    </div>
+
+    <div style="margin-top: 20px; padding: 15px; background: #f0f0f0; border-radius: 0px;">
+      <h3>GRAPH VISION: DIGITAL ARCHITECTURE'S SKELETONS</h3>
+      <p>by Theodora Vardouli</p>
+        <img src="book3.png" alt="Book 3" class="book-image" data-tooltip= "< Inspired the conceptual direction >" style="width: 275px; height: auto; display: block; margin: 0 auto;">
+      <br>
+        <p><i>"One might be tempted to interpret digital architecture's reliance on skeletal structures as an effect of how digital electronic computers work. This book rejects the proposition that the dovetailing of architecture and structural abstraction—on a cultural, discursive, and operational level—is an effect of digital computers' technical functioning. Instead, it contributes a multifaceted story of architects' turn toward the structural underpinnings of their work as the very condition that made it possible to consider architectural design as a form of computation" pg.2</i></p>
+           <br>
+        <p><i>"...while this coda could not possibly characterize architecture's digital 'culture,' 'turn,' era, age, epoch with any semblance of historical or analytical precision nor foretell its fast-changing futures, it can discern the absences that construct it: the things that have been lost and those that have been hidden" pg.185</i></p>
+   <br>
+    </div>
+
+
+<!--heading-->
+<div class="section">
+
+<div id="your community of practice" style="height: 100px;"></div>
+    <h1 class="text-hug">YOUR COMMUNITY OF PRACTICE</h1>
+        <div class="scroll-container">
+            <div class="scroll-wrapper">
+                <div class="scroll-text">
+                <i>A map of who else is working in this space now or recently, what are they doing, what questions are they asking, what approaches have they taken, how do you position yourself in relation to them. This is not an exhaustive list of everyone connected to your topic, rather it is a selection of the projects and practices and authors who are important to your thinking, including who you may disagree with or intend to critique. What is your relationship to your precedent study, how has it informed your thinking? Is your project going to be an advancement of the precedent or a reinterpretation, a subversion, a rejection, a reinterpretation, a fork, a contestation, an alternative proposal? Is the audience for your project the same as your community of practice or different?</i>
+                </div>
+                <div class="scroll-text">
+                <i>A map of who else is working in this space now or recently, what are they doing, what questions are they asking, what approaches have they taken, how do you position yourself in relation to them. This is not an exhaustive list of everyone connected to your topic, rather it is a selection of the projects and practices and authors who are important to your thinking, including who you may disagree with or intend to critique. What is your relationship to your precedent study, how has it informed your thinking? Is your project going to be an advancement of the precedent or a reinterpretation, a subversion, a rejection, a reinterpretation, a fork, a contestation, an alternative proposal? Is the audience for your project the same as your community of practice or different?</i>
+                </div>
+            </div>
+        </div>
+<!--heading-->
+    <div style="margin-top: 20px; padding: 15px; background: #f0f0f0; border-radius: 0px;">
+      <h3>CASE STUDY 1 >> MATERIAL MATTERS</h3>
+      <p>by Grant Gibson and William Knight</p>
+      <br>
+      <p>Material Matters is a cross-media platform that explores the vital role of materials in shaping the future of architecture, design, and manufacturing. Through the internationally acclaimed Material Matters Podcast, the renowned Material Matters Fair, and industry-leading consultancy and special projects, Material Matters connects brands, designers, and manufacturers with a forward-thinking audience passionate about material innovation.</p>
+        <br>
+      <img src="Community_of_Practice_MaterialMatters.png" alt="Material Matters" class="book-image" data-tooltip= "< Advocacy, Awareness, and Influence >" style="width: 600px; height: auto; display: block; margin: 0 auto;">
+    <br>
+    </div>
+        <div style="height: 0.5em;"></div>
+        <p class="text-hug-black"><u></u></p>
+        <div style="margin-top: 0; padding-left: 15px; padding-right: 0px; text-align: right;">
+        <p class="text-hug-black" style="display: inline; margin: 0;"><u>https://materialmatters.design/about#partnerships-section</u></p>
+        </div>
+
+    <div style="margin-top: 20px; padding: 15px; background: #f0f0f0; border-radius: 0px;">
+        <h3>CASE STUDY 2 >> MADASTER</h3>
+      <p>by Thomas Rau and Pablo van den Bosch</p>
+      <br>
+      <p>Madaster believes that lasting change starts with redefining waste. They believe that every material holds value and can be reused endlessly, helping create a world where sustainability becomes the standard, not the exception. They offer services in reducing carbon footprint, enabling circularity, calculating residual value, and unlocking regulatory compliance.</p>
+      <br> 
+      <img src="Community_of_Practice_Madaster.png" alt="Madaster" class="book-image" data-tooltip= "< Service, Revenue, Value >" style="width: 600px; height: auto; display: block; margin: 0 auto;">
+    <br>
+    </div>
+        <div style="height: 0.5em;"></div>
+        <p class="text-hug-black"><u></u></p>
+        <div style="margin-top: 0; padding-left: 15px; padding-right: 0px; text-align: right;">
+        <p class="text-hug-black" style="display: inline; margin: 0;"><u>https://madaster.com/inspiration/</u></p>
+        </div>
+
+    <div style="margin-top: 20px; padding: 15px; background: #f0f0f0; border-radius: 0px;">
+        <h3>CASE STUDY 3 >> CONSTRUCTION MATERIAL LIBRARY</h3>
+      <p>by FlowBIM</p>
+      <br>
+      <p>A comprehensive digital database containing manufacturer-specific building material data including density, thermal conductivity, and thickness specifications. This resource enables direct integration of real material parameters into wall components with automatic U-value calculations that adjust dynamically as materials or thicknesses change. The library features thickness selection filters for optimal material combinations, manufacturer datasheet links for additional information, and bilingual support in English and Estonian while maintaining consistent coverage across EU countries.</p>
+      <br>  
+      <img src="Community_of_Practice_ConstructionMaterialLibraryForEU.png" alt="Construction Material LIbrary for EU" class="book-image" data-tooltip= "< Customization, Integration, Practicality >" style="width: 600px; height: auto; display: block; margin: 0 auto;">
+        <br>
+    </div>
+     <div style="height: 0.5em;"></div>
+        <p class="text-hug-black"><u></u></p>
+        <div style="margin-top: 0; padding-left: 15px; padding-right: 0px; text-align: right;">
+        <p class="text-hug-black" style="display: inline; margin: 0;"><u>https://apps.autodesk.com/RVT/en/Detail/Index?id=6825140766630953113&appLang=en&os=Win64</u></p>
+        </div>
+
+
+      <div class="bee-container" style="margin-top: 20px; padding: 15px; background: #FFEB3B; border-radius: 0px;">
+    <div class="bee-tooltip"></div>
+      <h3>PRECEDENT STUDY >> HAQUE TAN</h3>
+      <p>by Usman Haque, Ling Tan</p>
+      <br>
+      <p>My precedent study primarily helped me think about how software can facilitate collaboration between multiple people to complete a collective task. In the context of my capstone, API databases of local materials are the "people" that can be accessed by the user to make informed creative decisions. I am also taking inspiration from the philosophy HAQUE TAN has: "Designing for Shared Futures".</p>
+    <br>
+    </div>
+        <div style="height: 0.5em;"></div>
+        <p class="text-hug-black"><u></u></p>
+        <div style="margin-top: 0; padding-left: 15px; padding-right: 0px; text-align: right;">
+        <p class="text-hug-black" style="display: inline; margin: 0;"><u>https://haquetan.com/</u></p>
+        </div>
+        <div style="height: 0.5em;"></div>
+        <p class="text-hug-black"><u></u></p>
+        <div style="margin-top: 0; padding-left: 15px; padding-right: 0px; text-align: right;">
+        <p class="text-hug-black" style="display: inline; margin: 0;"><u>https://drmimi47.github.io/Precedent-Study/</u></p>
+        </div>
+    
+
+<!--heading-->
+<div class="section">
+
+<div id="situated technology" style="height: 100px;"></div>
+    <h1 class="text-hug">SITUATED TECHNOLOGY</h1>
+        <div class="scroll-container">
+            <div class="scroll-wrapper">
+                <div class="scroll-text">
+                <i>Articulate how your project engages with the concept of situated technology, considering how computational tools and methods are embedded within specific social, cultural, and political contexts. This section should demonstrate your understanding of technology as a socially constructed phenomenon rather than a neutral tool.</i>
+                </div>
+                <div class="scroll-text">
+                <i>Articulate how your project engages with the concept of situated technology, considering how computational tools and methods are embedded within specific social, cultural, and political contexts. This section should demonstrate your understanding of technology as a socially constructed phenomenon rather than a neutral tool.</i>
+                </div>
+            </div>
+        </div>
+<!--heading-->
+    <div style="margin-top: 20px; padding: 15px; background: #e3ffff; border-radius: 0px;">
+      <p>My approach to computational design prioritizes cultural respect, social responsibility, and ethical awareness. While I value creative combinations of existing tools to generate new insights, I believe this must be grounded in a critical understanding of the biases embedded in current systems. By examining what today's software includes, omits, and assumes, I aim to develop intelligent, responsive design methods that serve communities rather than exploit them.</p>
+    <br>
+    </div>
+
+    <div style="margin-top: 20px; padding: 15px; background: #f0f0f0; border-radius: 0px;">
+<h3>Critical Foundation</h3>
+<p>a semester of reflective research</p>
+<br>
+
+      <iframe 
+        src="https://embed.figma.com/board/X3hYe6HKcg8P2DjeR3DSkx/CDP_Personal_WhiteBoard_Sum2025?node-id=0-1&embed-host=share"
+        width="100%" 
+        height="500" 
+        style="border: none;"
+        allowfullscreen>
+       </iframe>
+<br>
+<br>
+
+    </div>
+
+        <div style="margin-top: 20px; padding: 15px; background: #f0f0f0; border-radius: 0px;">
+    <h2>Algorithm Decision Logs == Transparent Platforms == <u>Speckle</u></h2>
+    <h2>Open-Source Tools == Decentralization == <u>QGIS</u></h2>
+    <h2>Circularity == Material Passports == <u>Madaster</u></h2>
+    <br>
+    </div>
+
+
+<!--heading-->
+<div class="section">
+
+<div id="methods" style="height: 100px;"></div>
+    <h1 class="text-hug">METHODS</h1>
+        <div class="scroll-container">
+            <div class="scroll-wrapper">
+                <div class="scroll-text">
+                <i>Which software techniques, data practices, theoretical approaches, art styles, design tactics, conceptual acts, or material processes are emerging as pertinent to your practice? Are you planning to use qualitative and/or quantitative methods? What are the more important components of your project: physical, material, computational, written, aesthetic?</i>
+                </div>
+                <div class="scroll-text">
+                <i>Which software techniques, data practices, theoretical approaches, art styles, design tactics, conceptual acts, or material processes are emerging as pertinent to your practice? Are you planning to use qualitative and/or quantitative methods? What are the more important components of your project: physical, material, computational, written, aesthetic?</i>
+                </div>
+            </div>
+        </div>
+<!--heading-->
+    <div style="margin-top: 20px; padding: 15px; background: #e3ffff; border-radius: 0px;">
+      <p>I plan to employ both qualitative and quantitative methods to evaluate spatial and material narratives alongside data-driven recommendations and mapping. I am interested in leveraging open-source material databases, spatial metadata, and circular economy datasets to explore how building elements can become context-aware and materially responsive.<br><br></p>
+    
+      <h2>The project's critical components include:</h2>
+      <br>
+      <h3>< [Aforementioned] Toolkit ></h3>
+      <p></p>
+      <h3>< user Feedback ></h3>
+      <p></p>
+      <h3>< System Management ></h3>
+      <p></p>
+      <br>
+    </div>
+
+
+
+<!--heading-->
+<div class="section">
+
+<div id="computational design experiments" style="height: 100px;"></div>
+    <h1 class="text-hug">COMPUTATIONAL DESIGN EXPERIMENTS</h1>
+        <div class="scroll-container">
+            <div class="scroll-wrapper">
+                <div class="scroll-text">
+                <i>Include any images, visualizations, simulations, interactive demos, sketches, photos, models, diagrams, studies, physical experiments authored by you during the semester that are pertinent to your ongoing interests and project development. </i>
+                </div>
+                <div class="scroll-text">
+                <i>Include any images, visualizations, simulations, interactive demos, sketches, photos, models, diagrams, studies, physical experiments authored by you during the semester that are pertinent to your ongoing interests and project development. </i>
+                </div>
+            </div>
+        </div>
+<!--heading-->
+    <div style="margin-top: 20px; padding: 15px; background: #f0f0f0; border-radius: 0px;">
+        <h3>ARCHA4163 >> COMP DESIGN WORKFLOWS</h3>
+        <br>
+        <p>Although the data of NYC drinking fountains is not particularly relevant, this assignment has helped me learn the basics of API integration, handling large data sets, and the utilization of tools like Mapbox to create a cohesive and interactive representation of open-data.</p>
+        <br>
+        <div id="mapbox-container-3" style="height: 500px; width: 100%; border-radius: 0px; overflow: hidden;"></div>
+
+        <div class="controls" style="margin-top: 15px; display: flex; gap: 10px; align-items: center;">
+            <input type="text" id="searchFeature" placeholder="M, B, Q, X, R..." style="flex: 1; padding: 8px; border-radius: 4px; border: 1px solid #ccc;">
+            <button id="resetFilters" style="padding: 8px 16px; background: #6366f1; color: white; border: none; border-radius: 4px; cursor: pointer;">Reset Search</button>
+            <button id="fitToData" style="padding: 8px 16px; background: #2563eb; color: white; border: none; border-radius: 4px; cursor: pointer;">Fit to Data</button>
+        </div>
+        <br>
+    </div>
+
+<div style="margin-top: 20px; padding: 15px; background: #f0f0f0; border-radius: 0px;">
+    <h3>ARCHA4162 >> COMP MODELING</h3>
+    <br>
+    <p>Learning Grasshopper's visual coding interface is great practice for eventually using Dynamo for Revit and data management. On top of that, the custom tool for Computational Modeling can serve as a "proof-of-concept" where it can perform a preview of the Open Material Library tool, but it is largely for demonstration purposes rather than a software that I will continue to use in my capstone.</p>
+    <br>        
+    
+    <div style="display: flex; gap: 10px; justify-content: center;">
+        <img src="pdr_CustomTool_V1.png" alt="Custom Tool Progress Grasshopper" style="width: 355px; height: auto;">
+        <img src="pdr_CustomTool_Rhino_V1.png" alt="Custom Tool Progress" style="width: 355px; height: auto;">
+    </div>
+    
+    <br>
+</div>
+
+<!--heading-->
+<div class="section">
+
+<div id="visual representation" style="height: 100px;"></div>
+    <h1 class="text-hug">VISUAL REPRESENTATION</h1>
+        <div class="scroll-container">
+            <div class="scroll-wrapper">
+                <div class="scroll-text">
+                <i>What aesthetic modes are inspiring to you. In CDP, aesthetics is understood as a means of sensory investigation. Aesthetics is part of how you build an argument and how you communicate it. What is your visual language and representational style? A visual language can include physical and material qualities as well as screen and image based work. Does your visual representation situate you in a specific community?</i>
+                </div>
+                <div class="scroll-text">
+                <i>What aesthetic modes are inspiring to you. In CDP, aesthetics is understood as a means of sensory investigation. Aesthetics is part of how you build an argument and how you communicate it. What is your visual language and representational style? A visual language can include physical and material qualities as well as screen and image based work. Does your visual representation situate you in a specific community?</i>
+                </div>
+            </div>
+        </div>
+<!--heading-->
+    <div style="margin-top: 20px; padding: 15px; background: #e3ffff; border-radius: 0px;">
+      <p>The project's scope requires a cohesive visual language that extends from urban mapping visualizations to the user interface elements within the Revit plugin. Additionally, presenting the large raw datasets from open-source projects through visually engaging representations would enhance transparency by making the algorithm's sorting and filtering mechanisms clearly visible to users, fostering trust and understanding in the underlying computational processes.</p>
+    <br>
+    </div>
+
+
+    <div style="margin-top: 20px; padding: 15px; background: #f0f0f0; border-radius: 0px;">
+      <h3>CASE STUDY 1 >> MATERIAL LOCALE</h3>
+      <p>by Zihan Xiang, Jun Yue, and Jiaxin Yue</p>
+      <br>
+        <img src="Material_Locale_0.gif" alt="Material Locale gif" class="book-image" data-tooltip= "< Visualizing material indexing in 2D and 3D >" style="width: 600px; height: auto; display: block; margin: 0 auto;">
+        <br>
+        <img src="Material_Locale.png" alt="Material Locale png" class="book-image" data-tooltip= "< Visualizing material indexing in 2D and 3D >" style="width: 600px; height: auto; display: block; margin: 0 auto;">
+    <br>
+    </div>
+        <div style="height: 0.5em;"></div>
+        <p class="text-hug-black"><u></u></p>
+        <div style="margin-top: 0; padding-left: 15px; padding-right: 0px; text-align: right;">
+        <p class="text-hug-black" style="display: inline; margin: 0;"><u>https://bpro2023.bartlettarchucl.com/rc1-monumental-wastelands-hyper-local/material-locale</u></p>
+        </div>
+
+    <div style="margin-top: 20px; padding: 15px; background: #f0f0f0; border-radius: 0px;">
+      <h3>CASE STUDY 2 >> NYC BUILDING MATERIALS</h3>
+      <p>by Hao Lee</p>
+      <br>
+        <img src="NYC_Building_Materials_HL1.png" alt="NYC Building Materials Image 1" class="book-image" data-tooltip= "< Visualizing large data sets >" style="width: 600px; height: auto; display: block; margin: 0 auto;">
+        <br>
+        <img src="NYC_Building_Materials_HL2.png" alt="NYC Building Materials Image 2" class="book-image" data-tooltip= "< Visualizing large data sets >" style="width: 600px; height: auto; display: block; margin: 0 auto;">
+    <br>
+    </div>
+        <div style="height: 0.5em;"></div>
+        <p class="text-hug-black"><u></u></p>
+        <div style="margin-top: 0; padding-left: 15px; padding-right: 0px; text-align: right;">
+        <p class="text-hug-black" style="display: inline; margin: 0;"><u>https://gsapp-cdp.github.io/archive/projects/2025/nyc-building-materials/</u></p>
+        </div>
+
+    <div style="margin-top: 20px; padding: 15px; background: #f0f0f0; border-radius: 0px;">
+      <h3>CASE STUDY 3 >> CULTURE UNDER COMPLEX PERSPECTIVE</h3>
+      <p>by Lin Qi, Yuwei Wang, Jindong Chen, Mengjie Liao, Jian Zhang</p>
+      <br>
+        <img src="Culture_Under_Complex_Perspective_1.png" alt="Culture Under Complex Perspective Image 1" class="book-image" data-tooltip= "< Visualizing and organizing the intagible >" style="width: 600px; height: auto; display: block; margin: 0 auto;">
+        <br>
+        <img src="Culture_Under_Complex_Perspective_2.png" alt="Culture Under Complex Perspective Image 2" class="book-image" data-tooltip= "< Visualizing and organizing the intagible >" style="width: 600px; height: auto; display: block; margin: 0 auto;">
+<br>
+    </div>
+        <div style="height: 0.5em;"></div>
+        <p class="text-hug-black"><u></u></p>
+        <div style="margin-top: 0; padding-left: 15px; padding-right: 0px; text-align: right;">
+        <p class="text-hug-black" style="display: inline; margin: 0;"><u>https://onlinelibrary.wiley.com/doi/10.1155/2021/6693753</u></p>
+        </div>
+
+
+<!--heading-->
+<div class="section">
+
+<div id="rhetorical argument" style="height: 100px;"></div>
+    <h1 class="text-hug">RHETORICAL ARGUMENT</h1>
+        <div class="scroll-container">
+            <div class="scroll-wrapper">
+                <div class="scroll-text">
+                <i>Clearly articulate the central argument or position your project advances, considering how computational design can serve as a form of persuasion or critique. Your argument should address both the technical possibilities of your approach and its broader implications for design practice or society.</i>
+                </div>
+                <div class="scroll-text">
+                <i>Clearly articulate the central argument or position your project advances, considering how computational design can serve as a form of persuasion or critique. Your argument should address both the technical possibilities of your approach and its broader implications for design practice or society.</i>
+                </div>
+            </div>
+        </div>
+<!--heading-->
+    <div style="margin-top: 20px; padding: 15px; background: #e3ffff; border-radius: 0px;">
+      <h3>Digital design tools, particularly BIM, must evolve from passive catalogs of construction components into active, ethical frameworks for architectural decision-making. I argue that BIM should no longer serve merely to document what is built, but instead to shape how we build, rooted in material responsibility and cultural relevance. Buildings must move away from being assembled through abstracted, globally sourced systems and instead emerge from local, often overlooked resources such as salvaged timber, reused brick, or urban waste.</h3>
+   <br>
+    </div>
+
+
+
+<!--heading-->
+<div class="section">
+
+<div id="capstone project proposal" style="height: 100px;"></div>
+    <h1 class="text-hug">CAPSTONE PROPOSAL</h1>
+        <div class="scroll-container">
+            <div class="scroll-wrapper">
+                <div class="scroll-text">
+                <i>This is not fixed or final, but should provide the jury with a sense of where you might take this work next semester, and what form a final project could look like. Withhold the urge to propose a solution to a problem you do not yet fully understand.</i>
+                </div>
+                <div class="scroll-text">
+                <i>This is not fixed or final, but should provide the jury with a sense of where you might take this work next semester, and what form a final project could look like. Withhold the urge to propose a solution to a problem you do not yet fully understand.</i>
+                </div>
+            </div>
+        </div>
+<!--heading-->
+<div style="margin-top: 20px; padding: 15px; background: #e3ffff; border-radius: 0px;">
+  <div style="position: relative; padding-left: 15px;">
+    <div style="position: absolute; left: 0; top: 0; bottom: 0; width: 3px; background: #505050;"></div>
+    <h1 style="margin: 0 0 10px 0;">MATERIAL IN-SITE</h1>
+    <h4 style="margin: 0;">A context-encoded Revit plugin to build a more considerate architecture.</h4>
+  </div>
+  <br>
+  
+  <p>My project proposes a new layer of dimensionality in BIM that encodes circular material intelligence and locality-aware logic into the design process. This transforms design from a matter of form into a matter of values, where each element is selected not only for performance, but for provenance. BIM can become more than a tool for efficiency or visualization; it can be a medium for ethical and situated architectural thinking.</p>
+<br>
+</div>
+<div style="margin-top: 20px; padding: 15px; background: #f0f0f0; border-radius: 0px;">
+
+    <h3>VDC TOOLS</h3>
+    <p>the 9th Revit domain</p>
+    <br>
+    <div id="d3-container-3"></div>
+    <p>Model Authoring Tool <span style="display: inline-block; width: 12px; height: 12px; background-color: #176BFF; vertical-align: text-bottom; margin: 0 4px;"></span>, Fields of Study and Collab Tools <span style="display: inline-block; width: 12px; height: 12px; background-color: #093E92; vertical-align: text-bottom; margin: 0 4px;"></span>, Capstone: Material InSite <span style="display: inline-block; width: 12px; height: 12px; background-color: #F59E42; vertical-align: text-bottom; margin: 0 4px;"></span>, Post-Production Tools <span style="display: inline-block; width: 12px; height: 12px; background-color: #ABABAB; vertical-align: text-bottom; margin: 0 4px;"></span>.</p>
+<br>
+</div>
+
+
+<style>
+  .filter-box {
+    margin-top: 20px;
+    padding: 15px;
+    background: black;
+    border-radius: 0px;
+  }
+  .filter-box h3,
+  .filter-box p {
+    color: white;
+    margin: 0;
+  }
+</style>
+
+<div class="filter-box">
+  <h3>FILTER DIAGRAM</h3>
+  <p>embedding cultural metadata</p>
+  <br>
+  <img 
+    src="FilterDiagram_Black.png" 
+    alt="filter" 
+    style="width: 600px; height: auto; display: block; margin: 0 auto; cursor: pointer;" 
+    onclick="enlargeImage(this.src)"
+  >
+  <br>
+</div>
+
+<!-- Overlay container remains unchanged -->
+<div id="imageOverlay" 
+     style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100vh; background-color: rgba(0,0,0,0.9); z-index: 9999; overflow: hidden; white-space: nowrap; cursor: grab;">
+  <img id="enlargedImage" src="" style="height: 100vh; display: inline-block; user-select: none; pointer-events: none;">
+  <span onclick="closeOverlay()" style="position: fixed; top: 20px; right: 30px; font-size: 30px; color: white; cursor: pointer; z-index: 10000;">&times;</span>
+</div>
+
+<script>
+  function enlargeImage(src) {
+    const overlay = document.getElementById('imageOverlay');
+    const image = document.getElementById('enlargedImage');
+    image.src = src;
+    overlay.scrollLeft = 0;
+    overlay.scrollTop = 0;
+    overlay.style.display = 'block';
+  }
+
+  function closeOverlay() {
+    document.getElementById('imageOverlay').style.display = 'none';
+  }
+
+  // Drag to pan logic
+  const overlay = document.getElementById('imageOverlay');
+  let isDragging = false;
+  let startX, startY, scrollLeft, scrollTop;
+
+  overlay.addEventListener('mousedown', (e) => {
+    isDragging = true;
+    overlay.style.cursor = 'grabbing';
+    startX = e.pageX - overlay.offsetLeft;
+    startY = e.pageY - overlay.offsetTop;
+    scrollLeft = overlay.scrollLeft;
+    scrollTop = overlay.scrollTop;
+    e.preventDefault(); // prevent text/image selection
+  });
+
+  overlay.addEventListener('mouseleave', () => {
+    isDragging = false;
+    overlay.style.cursor = 'grab';
+  });
+
+  overlay.addEventListener('mouseup', () => {
+    isDragging = false;
+    overlay.style.cursor = 'grab';
+  });
+
+  overlay.addEventListener('mousemove', (e) => {
+    if (!isDragging) return;
+    const x = e.pageX - overlay.offsetLeft;
+    const y = e.pageY - overlay.offsetTop;
+    const walkX = (x - startX);
+    const walkY = (y - startY);
+    overlay.scrollLeft = scrollLeft - walkX;
+    overlay.scrollTop = scrollTop - walkY;
+  });
+</script>
+
+
+
+
+
+<!--heading-->
+<div class="section">
+
+<div id="the challenge" style="height: 100px;"></div>
+    <h1 class="text-hug">THE CHALLENGE</h1>
+        <div class="scroll-container">
+            <div class="scroll-wrapper">
+                <div class="scroll-text">
+                <i>What challenges do you foresee in the development of this project? Are they challenges of learning specific technical skills, building relationships and finding collaborators, improving your visual design skills, finding or creating a dataset, etc. Be honest with yourself and the audience about where your current skills sit in relation to your ambitions, and what your plan is moving forwards.</i>
+                </div>
+                <div class="scroll-text">
+                <i>What challenges do you foresee in the development of this project? Are they challenges of learning specific technical skills, building relationships and finding collaborators, improving your visual design skills, finding or creating a dataset, etc. Be honest with yourself and the audience about where your current skills sit in relation to your ambitions, and what your plan is moving forwards.</i>
+                </div>
+            </div>
+        </div>
+<!--heading-->
+    <div style="margin-top: 20px; padding: 15px; background: #e3ffff; border-radius: 0px;">
+        <h3>CONCERNS >></h3>
+        <br>
+      <p><b>Need to connect tools across platforms (Python → C# → Revit/Dynamo) <br>Limited experience with APIs and data exchange protocols <br>Machine learning knowledge is mostly theoretical <br>Translating design thinking into algorithms is still a challenge</b></p>
+    <br>
+    <h3>PLANS >></h3>
+    <br>
+    <p><b>Prioritize learning C# and Revit API through community tutorials<br>Strengthen skills in ML: preprocessing, algorithms, and validation<br>Use my dual degree to bridge ethics, architecture, and computation<br>Aim for fluency in cross-platform workflows, not just tool proficiency</b></p>
+      <br>
+    </div>
+
+
+
+<!--heading-->
+<div class="section">
+
+<div id="credits" style="height: 100px;"></div>
+    <h1 class="text-hug">CREDITS</h1>
+        <div class="scroll-container">
+            <div class="scroll-wrapper">
+                <div class="scroll-text">
+                <i>Acknowledge the sources, tools, collaborators, and resources that have contributed to your project development and research process. This section should include software platforms, datasets, academic references, mentors, peers, and any other individuals or institutions whose work has informed or supported your computational design practice.</i>
+                </div>
+                <div class="scroll-text">
+                <i>Acknowledge the sources, tools, collaborators, and resources that have contributed to your project development and research process. This section should include software platforms, datasets, academic references, mentors, peers, and any other individuals or institutions whose work has informed or supported your computational design practice.</i>
+                </div>
+            </div>
+        </div>
+<!--heading-->
+    <div style="margin-top: 20px; padding: 15px; background: #f0f0f0; border-radius: 0px;">
+            <p style="margin-left: 0x; text-align: left;">
+            <a href="https://gramaziokohler.arch.ethz.ch/web/news/e/actualNews/0/0/0.html" 
+            target="_blank" 
+            style="text-decoration: none; font-style: italic;">
+                https://gramaziokohler.arch.ethz.ch/web/news/e/actualNews/0/0/0.html
+            </a>
+            </p>
+            <p style="margin-left: 0x; text-align: left;">
+            <a href="https://gramaziokohler.arch.ethz.ch/web/news/e/actualNews/0/0/0.html" 
+            target="_blank" 
+            style="text-decoration: none; font-style: italic;">
+                https://gramaziokohler.arch.ethz.ch/web/news/e/actualNews/0/0/0.html
+            </a>
+            </p>
+            <p style="margin-left: 0x; text-align: left;">
+            <a href="https://bpro2023.bartlettarchucl.com/rc1-monumental-wastelands-hyper-local/material-locale" 
+            target="_blank" 
+            style="text-decoration: none; font-style: italic;">
+                https://bpro2023.bartlettarchucl.com/rc1-monumental-wastelands-hyper-local/material-locale
+            </a>
+            </p>
+            <p style="margin-left: 0x; text-align: left;">
+            <a href="https://www.philipbeesleystudioinc.com/sculptures/" 
+            target="_blank" 
+            style="text-decoration: none; font-style: italic;">
+                https://www.philipbeesleystudioinc.com/sculptures/
+            </a>
+            </p>
+            <p style="margin-left: 0x; text-align: left;">
+            <a href="https://olafureliasson.net/" 
+            target="_blank" 
+            style="text-decoration: none; font-style: italic;">
+                https://olafureliasson.net/
+            </a>
+            </p>
+            <p style="margin-left: 0x; text-align: left;">
+            <a href="https://kilthub.cmu.edu/collections/Master_of_Computational_Design/5279693" 
+            target="_blank" 
+            style="text-decoration: none; font-style: italic;">
+                https://kilthub.cmu.edu/collections/Master_of_Computational_Design/5279693
+            </a>
+            </p>
+            <p style="margin-left: 0x; text-align: left;">
+            <a href="https://dbt.arch.ethz.ch/publication/" 
+            target="_blank" 
+            style="text-decoration: none; font-style: italic;">
+                https://dbt.arch.ethz.ch/publication/
+            </a>
+            </p>
+            <p style="margin-left: 0x; text-align: left;">
+            <a href="https://forensic-architecture.org/investigation/tear-gas-tuesday-in-downtown-portland" 
+            target="_blank" 
+            style="text-decoration: none; font-style: italic;">
+                https://forensic-architecture.org/investigation/tear-gas-tuesday-in-downtown-portland
+            </a>
+            </p>
+            <p style="margin-left: 0x; text-align: left;">
+            <a href="https://cyberneticzoo.com/robots-in-art/1969-70-seek-nicholas-negroponte-american/" 
+            target="_blank" 
+            style="text-decoration: none; font-style: italic;">
+                https://cyberneticzoo.com/robots-in-art/1969-70-seek-nicholas-negroponte-american/
+            </a>
+            </p>
+            <p style="margin-left: 0x; text-align: left;">
+            <a href="https://haquetan.com/growing-riversiders/" 
+            target="_blank" 
+            style="text-decoration: none; font-style: italic;">
+                https://haquetan.com/growing-riversiders/
+            </a>
+            </p>
+            <p style="margin-left: 0x; text-align: left;">
+            <a href="https://www.dear-data.com/theproject" 
+            target="_blank" 
+            style="text-decoration: none; font-style: italic;">
+                https://www.dear-data.com/theproject
+            </a>
+            </p>
+            <p style="margin-left: 0x; text-align: left;">
+            <a href="https://michael-hansmeyer.com/projects" 
+            target="_blank" 
+            style="text-decoration: none; font-style: italic;">
+                https://michael-hansmeyer.com/projects
+            </a>
+            </p>
+            <p style="margin-left: 0x; text-align: left;">
+            <a href="https://www.interactivearchitecture.org/" 
+            target="_blank" 
+            style="text-decoration: none; font-style: italic;">
+                https://www.interactivearchitecture.org/
+            </a>
+            </p>
+            <p style="margin-left: 0x; text-align: left;">
+            <a href="https://www.matterdesignstudio.com/#/patty-jan/" 
+            target="_blank" 
+            style="text-decoration: none; font-style: italic;">
+                https://www.matterdesignstudio.com/#/patty-jan/
+            </a>
+            </p>
+            <p style="margin-left: 0x; text-align: left;">
+            <a href="https://starts-prize.aec.at/en/winners/winners2025/" 
+            target="_blank" 
+            style="text-decoration: none; font-style: italic;">
+                https://starts-prize.aec.at/en/winners/winners2025/
+            </a>
+            </p>
+            <p style="margin-left: 0x; text-align: left;">
+            <a href="https://moritzebeling.com/" 
+            target="_blank" 
+            style="text-decoration: none; font-style: italic;">
+                https://moritzebeling.com/
+            </a>
+            </p>
+            <p style="margin-left: 0x; text-align: left;">
+            <a href="https://gsapp-cdp.github.io/archive/" 
+            target="_blank" 
+            style="text-decoration: none; font-style: italic;">
+                https://gsapp-cdp.github.io/archive/
+            </a>
+            </p>
+            <p style="margin-left: 0px; text-align: left;">
+            <a href="https://www.researchgate.net/figure/Information-flow-process-of-BIM-based-project-BIM-data-weights-and-share-flow-chart_fig3_352969288" 
+            target="_blank" 
+            style="text-decoration: none; font-style: italic;">
+                https://www.researchgate.net/figure/Information-flow-process-of-BIM-based-project-BIM-data-weights-and-share-flow-chart_fig3_352969288
+            </a>
+            </p>
+            <p style="margin-left: 0x; text-align: left;">
+            <a href="https://bpro2023.bartlettarchucl.com/rc1-monumental-wastelands-hyper-local/vernacular-contract" 
+            target="_blank" 
+            style="text-decoration: none; font-style: italic;">
+                https://bpro2023.bartlettarchucl.com/rc1-monumental-wastelands-hyper-local/vernacular-contract
+            </a>
+            </p>
+            <p style="margin-left: 0x; text-align: left;">
+            <a href="https://www.autodesk.com/support/technical/article/caas/tsarticles/ts/7I2bC1zUr4VjJ3U31uM66K.html" 
+            target="_blank" 
+            style="text-decoration: none; font-style: italic;">
+                https://www.autodesk.com/support/technical/article/caas/tsarticles/ts/7I2bC1zUr4VjJ3U31uM66K.html
+            </a>
+            </p>
+            <br>
+    </div>
+
+
+
+  </main>
+
+    <script src="script.js"></script>
+    <script src="radial-graph.js"></script>
+
+
+    <script src="https://api.mapbox.com/mapbox-gl-js/v2.15.0/mapbox-gl.js"></script>
+    <link href="https://api.mapbox.com/mapbox-gl-js/v2.15.0/mapbox-gl.css" rel="stylesheet" />
+    <script src="mapBox_Sketch_03.js"></script>
+
+</body>
+</html>
