@@ -121,7 +121,7 @@ var mapboxSketch03 = function() {
               map3.fitBounds(bounds, {
                   padding: 80, // Add 80px padding around the data
                   duration: 2000, // Animate the transition over 2 seconds
-                  maxZoom: 1 // Don't zoom in too far for city-wide view
+                  maxZoom: 14 // Don't zoom in too far for city-wide view
               });
               
               console.log('Map automatically framed to fit fountain data');
